@@ -1,0 +1,3142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="removeCargoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameLoginID.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="shipDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Ship</value>
+  </data>
+  <data name="&gt;&gt;searchIPtoolStripMenuItem.Name" xml:space="preserve">
+    <value>searchIPtoolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Name" xml:space="preserve">
+    <value>toolStripStatusLabel2</value>
+  </data>
+  <data name="checkBoxFilterSameIP.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Name" xml:space="preserve">
+    <value>progressBar</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="&gt;&gt;piFactionGrid.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="removeEquipmentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;charPathDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>charPathDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowOriginalFile.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 6</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 456</value>
+  </data>
+  <data name="&gt;&gt;buttonBanInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="saveEquipmentButton.Text" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="&gt;&gt;piCargoGrid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Name" xml:space="preserve">
+    <value>trackBar1</value>
+  </data>
+  <data name="&gt;&gt;piMoney.Name" xml:space="preserve">
+    <value>piMoney</value>
+  </data>
+  <data name="piFactionGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 32</value>
+  </data>
+  <data name="&gt;&gt;piTimePlayed.Name" xml:space="preserve">
+    <value>piTimePlayed</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="openDirButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="deletePlayerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 67</value>
+  </data>
+  <data name="piCreated.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="&gt;&gt;label19.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="&gt;&gt;deletePlayerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="changeMoneyButton.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;label17.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Affiliation</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowOriginalFile.Name" xml:space="preserve">
+    <value>checkBoxShowOriginalFile</value>
+  </data>
+  <data name="tabPage7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="saveFactionButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;piShip.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="label17.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="saveCargoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameAccount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripDBPending.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterDeleted.Name" xml:space="preserve">
+    <value>checkBoxFilterDeleted</value>
+  </data>
+  <data name="&gt;&gt;rankDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>rankDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripStatusLabel4.Text" xml:space="preserve">
+    <value>DB Pending Writes:</value>
+  </data>
+  <data name="tabPage4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="piRank.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="piCargoGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="piReputationEdit.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;piFactionGrid.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="changeMoneyButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 166</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeCargo.Name" xml:space="preserve">
+    <value>buttonChangeCargo</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piFileView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="piIPAddresses.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="buttonPlayerInfoSaveAdminText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 432</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 279</value>
+  </data>
+  <data name="&gt;&gt;piAffiliation.Name" xml:space="preserve">
+    <value>piAffiliation</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Known Login 
+IDs and IP 
+Addresses 
+</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 22</value>
+  </data>
+  <data name="buttonChangeCargo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 428</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>952, 546</value>
+  </data>
+  <data name="&gt;&gt;timerShutdown.Name" xml:space="preserve">
+    <value>timerShutdown</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="charPathDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CharPath</value>
+  </data>
+  <data name="&gt;&gt;removeCargoButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="moneyDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="charListDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="checkBoxFilterSameIP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Money</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bannedPlayersToolStripMenuItem.Text" xml:space="preserve">
+    <value>Banned Players</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoAdminText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piTimePlayed.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 273</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;piTimePlayed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="discardFactionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="itemGameDataTypeDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="removeCargoButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="saveCargoButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;piName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAddCompleteMap.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowOriginalFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piPath.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;itemHashDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterDeleted.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 17</value>
+  </data>
+  <data name="label13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;piFileView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Name" xml:space="preserve">
+    <value>richTextBoxLog</value>
+  </data>
+  <data name="&gt;&gt;buttonBanInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;discardFactionButton.Name" xml:space="preserve">
+    <value>discardFactionButton</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="piEquipmentGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="richTextBoxPlayerInfoPlayerText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 247</value>
+  </data>
+  <data name="saveEquipmentButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 328</value>
+  </data>
+  <data name="itemRepDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Reputation</value>
+  </data>
+  <data name="saveCargoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="kickPlayerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="buttonPlayerInfoSaveAdminText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;saveEquipmentButton.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;piLastOnline.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Suggested Prefix: &lt;/TEXT&gt;&lt;TRA data="5" mask="5" def="-6"/&gt;&lt;TEXT&gt;</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;removeEquipmentButton.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameAccount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="toolStripHookState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>12, 17</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 17</value>
+  </data>
+  <data name="&gt;&gt;lastOnLineDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Ship</value>
+  </data>
+  <data name="changeNameButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Cargo</value>
+  </data>
+  <data name="&gt;&gt;itemGameDataTypeDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="itemGameDataTypeDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>itemGameDataType</value>
+  </data>
+  <data name="&gt;&gt;piRank.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;bannedPlayersToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFactionButton.Name" xml:space="preserve">
+    <value>saveFactionButton</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="&gt;&gt;trackBar1.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;saveEquipmentButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="piLastOnline.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemHashDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>itemHash</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pIEquipmentTableBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piIPAddresses.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 127</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCompleteMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxPlayerInfoPlayerText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.Text" xml:space="preserve">
+    <value>Show all characters in account</value>
+  </data>
+  <data name="&gt;&gt;shipDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchLoginIDToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="&gt;&gt;changeBanButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;itemAllowedTypesDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemAllowedTypesDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piCreated.Name" xml:space="preserve">
+    <value>piCreated</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLastOnline.Name" xml:space="preserve">
+    <value>buttonResetLastOnline</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 13</value>
+  </data>
+  <data name="&gt;&gt;changeLocationButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxFilterDeleted.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoAdminText.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="&gt;&gt;openDirButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piEquipmentGrid.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainWindow</value>
+  </data>
+  <data name="&gt;&gt;addCargoButton.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;onLineSecsDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piFileView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Lizerium Accaunt Manager</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="&gt;&gt;timerDBSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="piLastOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 20</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="piAccountID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 20</value>
+  </data>
+  <data name="piEquipmentGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFactionButton.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;removeCargoButton.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="piFactionGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;piReputationEdit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="&gt;&gt;saveFileManualButton.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="updatedDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Updated</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="trackBar1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="saveEquipmentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 428</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 39</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 275</value>
+  </data>
+  <data name="piFileView.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Courier New, 8.25pt</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoAdminText.Name" xml:space="preserve">
+    <value>richTextBoxPlayerInfoAdminText</value>
+  </data>
+  <data name="&gt;&gt;deletePlayerButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="buttonChangeCargo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;removeCargoButton.Name" xml:space="preserve">
+    <value>removeCargoButton</value>
+  </data>
+  <data name="&gt;&gt;reloadGameDataToolStripMenuItem.Name" xml:space="preserve">
+    <value>reloadGameDataToolStripMenuItem</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="createdDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="&gt;&gt;LastOnLines.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;charPathDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piPath.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tabPage7.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonResetLastOnline.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="&gt;&gt;buttonPlayerInfoSaveAdminText.Name" xml:space="preserve">
+    <value>buttonPlayerInfoSaveAdminText</value>
+  </data>
+  <data name="buttonPlayerInfoSaveAdminText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="searchIPtoolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="buttonChangeCargo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="&gt;&gt;changeShipButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="buttonCheckFile.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="&gt;&gt;piPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bannedPlayersToolStripMenuItem.Name" xml:space="preserve">
+    <value>bannedPlayersToolStripMenuItem</value>
+  </data>
+  <data name="toolStripStatusLabel2.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="buttonPlayerInfoSaveAdminText.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="piFactionGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 386</value>
+  </data>
+  <data name="discardEquipmentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="richTextBoxPlayerInfoPlayerText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;createdDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>createdDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabelStatus.Name" xml:space="preserve">
+    <value>toolStripStatusLabelStatus</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameIP.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="piRank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="changeShipButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="viewToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 20</value>
+  </data>
+  <data name="label8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemDescriptionDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;piRank.Name" xml:space="preserve">
+    <value>piRank</value>
+  </data>
+  <data name="richTextBoxPlayerInfoPlayerText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label9.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changeMoneyButton.Name" xml:space="preserve">
+    <value>changeMoneyButton</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;LoaderPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Player Defined Text</value>
+  </data>
+  <data name="&gt;&gt;piAccountID.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="changeEquipmentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="charListDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 367</value>
+  </data>
+  <data name="piCreated.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 299</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="buttonBanInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;piLastOnline.Name" xml:space="preserve">
+    <value>piLastOnline</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameAccount.Name" xml:space="preserve">
+    <value>checkBoxFilterSameAccount</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Time Played</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>952, 24</value>
+  </data>
+  <data name="&gt;&gt;piShip.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;piPath.Name" xml:space="preserve">
+    <value>piPath</value>
+  </data>
+  <data name="checkBoxFilterSameIP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 479</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 6</value>
+  </data>
+  <data name="&gt;&gt;pIFactionTableBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;piReputationEdit.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LoaderPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="textBoxFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="&gt;&gt;addCargoButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLastOnline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxPlayerInfoAdminText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;piCargoGrid.Name" xml:space="preserve">
+    <value>piCargoGrid</value>
+  </data>
+  <data name="&gt;&gt;saveCargoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="discardFactionButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;discardFactionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 524</value>
+  </data>
+  <data name="&gt;&gt;piLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;timerPeriodicTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piReputationEdit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 428</value>
+  </data>
+  <data name="&gt;&gt;piEquipmentGrid.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;itemCountDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changeBanButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonAddEquipment.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 300</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="openDirButton.Text" xml:space="preserve">
+    <value>Open Dir</value>
+  </data>
+  <data name="changeMoneyButton.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="&gt;&gt;label17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Name" xml:space="preserve">
+    <value>textBoxFilter</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="buttonBanInfo.Text" xml:space="preserve">
+    <value>Ban Info</value>
+  </data>
+  <data name="piName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 142</value>
+  </data>
+  <data name="discardEquipmentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="piTimePlayed.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="&gt;&gt;updatePlayerInfoTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piFileView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 420</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piFactionGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;removeEquipmentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;saveFactionButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="richTextBoxPlayerInfoAdminText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>453, 140</value>
+  </data>
+  <data name="&gt;&gt;itemNicknameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 430</value>
+  </data>
+  <data name="OnLineSecs.HeaderText" xml:space="preserve">
+    <value>On Line Secs</value>
+  </data>
+  <data name="piAffiliation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 7</value>
+  </data>
+  <data name="&gt;&gt;OnLineSecs.Name" xml:space="preserve">
+    <value>OnLineSecs</value>
+  </data>
+  <data name="discardFactionButton.Text" xml:space="preserve">
+    <value>Discard Changes</value>
+  </data>
+  <data name="&gt;&gt;accIDDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;itemNicknameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemNicknameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label17.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;updatePlayerInfoTimer.Name" xml:space="preserve">
+    <value>updatePlayerInfoTimer</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;changeMoneyButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;moneyDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>moneyDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="discardCargoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>356, 428</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="&gt;&gt;piFileView.Name" xml:space="preserve">
+    <value>piFileView</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;fLFileEditorToolStripMenuItem.Name" xml:space="preserve">
+    <value>fLFileEditorToolStripMenuItem</value>
+  </data>
+  <data name="LastOnLines.HeaderText" xml:space="preserve">
+    <value>Last On Line</value>
+  </data>
+  <data name="&gt;&gt;LastOnLine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoaderPanel.Name" xml:space="preserve">
+    <value>LoaderPanel</value>
+  </data>
+  <data name="LastOnLine.HeaderText" xml:space="preserve">
+    <value>Last On Line</value>
+  </data>
+  <data name="&gt;&gt;deletePlayerButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="rescanAccountFilesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;piName.Name" xml:space="preserve">
+    <value>piName</value>
+  </data>
+  <data name="&gt;&gt;characterListBindingSource.Name" xml:space="preserve">
+    <value>characterListBindingSource</value>
+  </data>
+  <data name="&gt;&gt;searchLoginIDToolStripMenuItem.Name" xml:space="preserve">
+    <value>searchLoginIDToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;piEquipmentGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piAffiliation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 20</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;piAccountID.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="saveEquipmentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;buttonAddEquipment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label19.Name" xml:space="preserve">
+    <value>label19</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="buttonAddEquipment.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel3.Name" xml:space="preserve">
+    <value>toolStripStatusLabel3</value>
+  </data>
+  <data name="&gt;&gt;saveEquipmentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;charListDataGridView.Name" xml:space="preserve">
+    <value>charListDataGridView</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;timerFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 171</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="&gt;&gt;discardEquipmentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeCargo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;piKills.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;changeMoneyButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="accIDDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AccID</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="itemDescriptionDataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Faction</value>
+  </data>
+  <data name="&gt;&gt;piShip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piAffiliation.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;piTimePlayed.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>itemDescriptionDataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="piKills.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 272</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;changeNameButton.Name" xml:space="preserve">
+    <value>changeNameButton</value>
+  </data>
+  <data name="itemHardpointDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Hardpoint</value>
+  </data>
+  <data name="&gt;&gt;LastOnLines.Name" xml:space="preserve">
+    <value>LastOnLines</value>
+  </data>
+  <data name="&gt;&gt;piLastOnline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterSameIP.Text" xml:space="preserve">
+    <value>Show accounts with same IP</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="piLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 194</value>
+  </data>
+  <data name="&gt;&gt;charNameDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>charNameDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;piOnline.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reloadFileButton.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;kickPlayerButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;piOnline.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="buttonAddEquipment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 428</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;charListDataGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piFileView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 13</value>
+  </data>
+  <data name="&gt;&gt;LastOnLine.Name" xml:space="preserve">
+    <value>LastOnLine</value>
+  </data>
+  <data name="itemDescriptionDataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="&gt;&gt;locationDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piReputationEdit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="&gt;&gt;itemHashDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemHashDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;LoaderPanel.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxFilterDeleted.Text" xml:space="preserve">
+    <value>Show deleted characters</value>
+  </data>
+  <data name="addCargoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="&gt;&gt;piCreated.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeCargo.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="piMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="&gt;&gt;buttonPlayerInfoSaveAdminText.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="richTextBoxLog.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;itemCountDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemCountDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;updatedDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;searchIPtoolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxPlayerInfoAdminText.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 253</value>
+  </data>
+  <data name="&gt;&gt;piOnline.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Administrator Defined Text (FLXML Format)</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="fLFileEditorToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="rescanAccountFilesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Rescan Account Files</value>
+  </data>
+  <data name="&gt;&gt;piOnline.Name" xml:space="preserve">
+    <value>piOnline</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 436</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoPlayerText.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;createdDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reloadFileButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;charListDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 428</value>
+  </data>
+  <data name="tabPage7.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;changeEquipmentButton.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="bannedPlayersToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="tabPage7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;piName.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="discardFactionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 428</value>
+  </data>
+  <data name="changeLocationButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 192</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;piPath.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="saveFactionButton.Text" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="&gt;&gt;saveEquipmentButton.Name" xml:space="preserve">
+    <value>saveEquipmentButton</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;removeEquipmentButton.Name" xml:space="preserve">
+    <value>removeEquipmentButton</value>
+  </data>
+  <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 16</value>
+  </data>
+  <data name="checkBoxFilterSameIP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 17</value>
+  </data>
+  <data name="checkBoxFilterDeleted.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 433</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.Text" xml:space="preserve">
+    <value>Show accounts with same Login ID</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;piLastOnline.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="richTextBoxPlayerInfoAdminText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 285</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemListToolStripMenuItem.Text" xml:space="preserve">
+    <value>Item List</value>
+  </data>
+  <data name="&gt;&gt;piCreated.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 34</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>475, 487</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoPlayerText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;discardEquipmentButton.Name" xml:space="preserve">
+    <value>discardEquipmentButton</value>
+  </data>
+  <data name="piIPAddresses.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="&gt;&gt;piTimePlayed.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;saveFileManualButton.Name" xml:space="preserve">
+    <value>saveFileManualButton</value>
+  </data>
+  <data name="&gt;&gt;itemHardpointDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemHardpointDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;piShip.Name" xml:space="preserve">
+    <value>piShip</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="&gt;&gt;changeNameButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchLoginIDToolStripMenuItem.Text" xml:space="preserve">
+    <value>Search Login ID</value>
+  </data>
+  <data name="&gt;&gt;kickPlayerButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="richTextBoxPlayerInfoAdminText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;discardCargoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAddCompleteMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 52</value>
+  </data>
+  <data name="isDeletedDataGridViewCheckBoxColumn.HeaderText" xml:space="preserve">
+    <value>IsDeleted</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;timerFilter.Name" xml:space="preserve">
+    <value>timerFilter</value>
+  </data>
+  <data name="&gt;&gt;changeShipButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="LastOnLines.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="piAffiliation.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;reloadFileButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 301</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value>Hook Comms:</value>
+  </data>
+  <data name="trackBar1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 424</value>
+  </data>
+  <data name="&gt;&gt;timerDBSave.Name" xml:space="preserve">
+    <value>timerDBSave</value>
+  </data>
+  <data name="kickPlayerButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 299</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;discardCargoButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;reloadFileButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;charListDataGridView.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="viewToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="piCargoGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;itemHashDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>itemHashDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;tabPage7.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="richTextBoxLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="&gt;&gt;saveCargoButton.Name" xml:space="preserve">
+    <value>saveCargoButton</value>
+  </data>
+  <data name="accDirDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>AccDir</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="discardCargoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="&gt;&gt;onLineSecsDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>onLineSecsDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;characterListBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statisticsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameIP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piLocation.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;discardCargoButton.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Last Online</value>
+  </data>
+  <data name="&gt;&gt;shipDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>shipDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="changeEquipmentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="&gt;&gt;tabPage4.Name" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="saveFactionButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label17.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="openDirButton.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="changeShipButton.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="&gt;&gt;piCreated.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="changeLocationButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="buttonResetLastOnline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 245</value>
+  </data>
+  <data name="&gt;&gt;piKills.Name" xml:space="preserve">
+    <value>piKills</value>
+  </data>
+  <data name="changeEquipmentButton.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoPlayerText.Name" xml:space="preserve">
+    <value>richTextBoxPlayerInfoPlayerText</value>
+  </data>
+  <data name="discardCargoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="$this.Icon" type="System.Byte[], mscorlib">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwCiEAJggXATYMJwEvCh8AAAAAAAAAAADXoPoAx375AsuX
+        4wuIUp4TiGGuGYZUmhevd7sO7rX4A+mw8wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsECAAyNjYALi4uOkdHR6haWlqmYWFhpmtq
+        a6Z1bXWpgm6DsodgibmNYJS/kFebvZVko7WQc6SqpJmzpr+8wabKysqm09PTptzb3Kfk5OSm7OzspvPz
+        86b5+fmm/v7+qv///2z///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjrbtAAAAAAAzOkJppKSk/+/v
+        7//r6+v/7Ozs/+3s7f/u7O7/8Ovw//Ls8v/y6/T/8uvz//Ht9P/z8fX/9/f3//n5+f/6+vr/+/v7//z8
+        /P/+/v7//v7+/////////////Pz8pv7+/gAAAAAAAAAAAAAAAAAAAAAAAAAAAI6anQCQpKMJhHGFXllB
+        UNSYmJj/dHR0/3Jycv+bm5v/5+fn/+Tk5P+FhYX/bW1t/6Ojo/+1trX/zs7N///////x8fH/qqqq/8XF
+        xf/ExMT/7+/v/6mpqf/v7+//tbW1/9PT0//5+fmm+fn5AAAAAAAAAAAAEwMFABMDBQG/h5kAlJGvGJpR
+        bYl9KVDtVS04/4OEg/9hYWH/2dnZ/6urq/+AgID/6urq/+jo6P/R0dH/XV1d/5qamv9zc3P/o6Oj/4qK
+        iv+Kior/uLi4/6Kiov+9vb3/VVVV/8PDw/+MjIz/urq6//Ly8qb09PQAAAAAAAAAAAAAAAAAwZbXAJSR
+        uxmVVWmghhhk/JUbYP9sL0D/gIGA/2tra//5+fn/+/v7/3V1df/Nzc3/8vLy/56env95eXn/3Nzc/2Vl
+        Zf+QkJD/VVVV/8LCwv+/v7//nJyc/5KSkv+kpKT/nJyc/4eHh/+7u7v/6Ojopu/v7wAAAAAAAAAAAJ16
+        mwCtvOQOk01klIAeUvubC2f/xRiB/28bVP98f37/bGxs//n5+f/9/f3/d3d3/7Gxsf+NjY3/pqam/+7u
+        7v//////qKio/6ysrP+FhYX/7Ozs/8DAwP9vb2//oaGh/+/v7/+Ghob/ZGRk/7q6uv/c3Nym6OjoAAAA
+        AACInOsAAP//AJJkiWyROk31fg9F/8oOg/90GGr/EA4g/3x9ff9iYmL/2dnZ/7S0tP92dnb/v7+//4aG
+        hv/X19f/6urq//7+/v/X19f/U1NT/6CgoP/+/v7/tra2/zk5Of/CwsL//////7m5uf8xMTH/t7a2/8/M
+        zab0//wAgITNAHlgowB6a7Iui0Rs03InN/+SEF3/jxR2/xoYIv8eGBX/j4+P/3V2dv9vbm//hYWG/+Hh
+        4v/5+fn/tbW1/3R0df+UlJX/9/f3//b29v+dnZ3/19fX///////Nzc3/i4uL//Dw8P//////8vLy/4yN
+        jP/MzMz/v72+pur8+ACAf74AoN/+BHBPn4Z1KFf+bk99/64cf/8sCyb/SjMR/1NBGf9BQD7/ZmVg/3Fu
+        Y/92cV7/cW5g/2xqZf9ta2b/amhi/3FtZ/95d3j/fHp6/4aDcP+Hh2D/jpF4/5mdlP+Oinz/cV5t/6Nt
+        oP+ggJT/m3aS/66kufunpqaXr6yxAGRVpgByaK8fZ0eW1nktSf+iIm7/YA1P/zIoEP+Fhjv/cnlB/1ZH
+        GP9+ayP/wbtN/8jNSf+ikx7/Z1UY/0UyCP8zKR7/cHB2/2hna/9YRzL/Zlcv/2JfJv91hlr/iZ+C/56o
+        h/83KjP/cgFb/5MWTP9zL1r/aE2VwH12mR9uXpgAXEqYAGVYnVp2TZn1zGGO/7gpeP8kDif/XJVm/57Y
+        c/9/fyb/c2IY/7qfLP+b0nn/Yuus/5GUKv9lUSL/XlJE/2NfZv9iXV//WlMt/2pjSv9tbGP/pqZ7/8TF
+        Y/+ys2L/5efO/3x+ev86BDP/yDaL/7lfmf9nSpvpUkqeM0Zm1wD///8AalamjXNMnP+2V6H/fyhl/w4w
+        Mv8u6sz/f9BV/39yFf9nWBH/eWYW/3mFMf9on0b/h4di/4N/kf+Af5X/gH6B/398RP+JiE//0dN7//Pz
+        XP/6+jX//fwi//n1If/18If/x8TC/yAVIv+fOIb/m1qe/21PnfZ+dL9da4nsAK14xw2BV62pZ0eQ/5Y0
+        kf9VE07/Ilto/1b2vf9wwyj/Z2AP/2JXR/+GhIT/f3xb/4J8cv+JhJr/wsK3/9LSdP/p6Un/+vpB//f3
+        Lf///w3//P4M//v6Tv/14WP/4tQU/8m7NP/d1sX/Mi8y/3Ica/+EM4r/cE6b/IRRrHyBVqsArHTFHoRF
+        nsNnOof/lx+G/zoJQP8phlX/VOVo/1d4Jf9zbX7/zs6J//n6UP/z9Fj/3dxb/+bmRP/8/C7///8a////
+        Dv///0P///88//v+C//0+RL/+PYt//LeHP/bxxv/tJsf/9PJqf9eW17/ZQxb/44khf9uQJH/hD2ck///
+        /wGyi8MnfUaLzHc9iP+rMJf/LQY6/zZtGf9QiSv/mJGP/+zqY//+/yT/9/kT//n8Cv///xr///8F////
+        Af/+/wj//v8G//3/F//8/yP/8fsG//T6J//7+kH/8OgJ//fWS//Mn0X/x7yS/3Bvdv9fBlL/rzyU/3NE
+        if+ASpCpuIe8DXpiiCl+UpHNdz+I/6ssj/8zCDv/MTAY/4uIhf/i2ab/5d0O/+XcEf/s5zL/5+QJ//Dx
+        Cf/4/Qf//v8W//7/Ov/9/y3/+f8C//j/FP/y+DD/7+8Z/+fkEf/f1xb/5dA6/7GUHP/DuZH/aGhu/2EF
+        U/+mNYz/az+C/39Qkqu4j78OfUaLGIdMn7twQIT/myuF/0gQR/9hW1z/6ufm/8a4aP++qxf/xrEJ/+DO
+        Lf/g0hz/5N4P//T6Kv/3/Tn/+voh//n7NP/09zb/9fcv//DvOv/t6DH/0ckd/7anEv+pmBD/pJMa/9jR
+        p/9LSk7/aw1f/4Usff9zQpD/gkKaj////wD0pOcHhU2gn3NBjv+kSIj/YBtO/0E9PP/r6un/r6Ju/5qD
+        C/+1nx//wq8k/8SyGv/SxSH/7Oo2/+PmDv/C5jH/3egt/+7kI//ZyRr/yboZ/8OzFP+yoB//jHkQ/3hl
+        Dv96aDH/0cy9/yoqM/+DEWz/lESI/3xKnPuATqB0gE6hAGE1kAB+V6F+bEGU/LNznv+NNmr/FxEd/8LB
+        vv/Cuaj/Z1AR/4dxHv+ahBT/v6oc/7GfE/+lmQr/zsEW/7LeW/+51VT/28gQ/8KuG/+ahBj/hnAS/3xn
+        G/9bSxL/QzQJ/5SKdf+lpKH/KxEr/7RCgv+kYJL/aUCV84pkq1FyUaAAAAAAAZWBvk9gO4XzkXGc/86L
+        vv8yCyr/a25p/+fn6f9pWVD/YUkW/3xnGP+QeiD/nIIa/6GHIf+bhx7/xrIk/7WnHf+tmxf/oowp/2tS
+        EP9ZQg7/RzUS/z4wHf83MSv/z87H/1NUU/9LKTv/3a2t/4JPgv9sQ5Lajmq2JHtXqgAAAAAEfXWzG3pO
+        lM9oNWb/varA/4dZev8gHB//ubu7/8fDx/9IPjP/RjYN/0o6D/+MZRv/3JdV/4NjG/+CbR//cloR/2tR
+        FP9gQxL/WDoT/z4oDf8jFQb/JSEf/6ipqv+np6X/GRMa/56AgP+zlpf/ZChj/3xZlp63tN4JOABXAgAA
+        AAG///8Dj1+he28YRfx5QFL/xrew/zc0OP8+Pz3/19nY/7i6vv87OTX/IBYH/zgjB/9fPh//UzwW/003
+        Ev9ELw7/QiwT/0cmFP9FHx7/FQkE/yUjIf+goqP/19fV/zg4N/9HOCH/x7N6/2w4TP9kH1H2i2yqXQAA
+        RQAqAkYCAAAAAK+CpACYfZEnizlYyl4LH/+kgXf/rK2r/yEhJv9JS0z/1tfY/9XW2P9tbnD/IB0Z/xIL
+        A/8eDgP/KhMI/zMVEP8rDQz/GwkH/xwSEv9QT1D/vL2+/9nY1/9OTUv/IyEg/7Wpg/+vfmz/czQ7/4JK
+        WMCueKYcqnOeAAAAAAAAAEMAAAAAAP8AAAChZIRXmjxY6J40Xv+qmJX/oaKo/ycmKf82Njj/qaqr/+bn
+        6f/Fxsj/h4SF/11aWv9XR0//WUZR/3BdbP99e37/tba3/+fn5/+zs7L/PDs5/yclJf+rqar/w66u/5NU
+        Tv+yhVXusIFsW4qfZADwa1sAAAAAAGs7sAB2RbkATyCiA5PI9wXWanxszG5f7Z9ZaP+/o43/srO0/01M
+        UP8cGxr/UlFQ/6CgoP/d3t7/6Ojp/9/f4P/e3t7/5+fo/+Xl5f+tra3/X11c/x0cHf9IRkj/t7S1/8vI
+        xv+ynXn/xrNz9MuxbX/LmqEIzKqEAAAAAAAAAAAAAAAAAFovpQBaL6UA//+0ANW8swnIy6lsrpVk6qN9
+        Sf+vnZf/zdDR/5WWmv9JSUr/JCIi/yolJP9ISEr/XV1f/2FgYf9PUVL/MS0r/yQgH/9CQUP/kY+S/9XV
+        1/+5ubf/rKWL/9PLjvvUzY6XvKyHEr+wiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAtqSPAN+1
+        2QWfmWlkvLFD4L2tUP+xsnz/vLqv/9DPy/+7uLr/k5GS/3FwcP9ZWFz/WFda/2hnaP+Ih4f/r66x/9bV
+        1P+/uqr/raqZ/7Oxk/+/uZjnvreWgs3LtBW9uZkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAt6nCALGh7QO5skpAz8U8rMrCT+2allr/m5Nk/8fDvP/Z1sr/2dfP/9PQz//PztL/0tLS/9fV
+        zf/Lyaj/trGF/3xyQ/+opH31zMqmu725m0yShGEIYFYkBD5BTgEABCAAIiU4AAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0wC7t3ETxLo6UNbSWJ/LyWXfwr9p98C6ef7BuoD/vbeK/7i0
+        i/++u4v/xsSA/87MbvvT0GjqubV4taqpiWSlpGUcAAAAAId7OwWMgk8JSExpAFlZYAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAYAAQSKgABBBwDAQQSBQAAAACAaAAA3tYmCerodyrj3VVf2ctRidTH
+        UKnXzFHB2dBix9rWdMHX1nOk0MxkeNXPXD7h3HUQzMmjANrWggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAwICAQYFAAEFBAAAAAAAAAAAAMOp
+        BADOrwABuqQMDca6Ox3Sy1giu7ZWHJuWUwuoo1MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/ngP//8AAAH/AAAB/AAAAegAAAHwAAAB4AAAAeAAAAHAAAABgAAAAYAA
+        AAGAAAABgAAAAQAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAYAAAAEAAAABAAAAAAAAAALAAAAD4AAAB8AA
+        AAfwAAAP+AAAH/wAAA//AACf/MAD//z4H/8=
+</value>
+  </data>
+  <data name="removeEquipmentButton.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameLoginID.Name" xml:space="preserve">
+    <value>checkBoxFilterSameLoginID</value>
+  </data>
+  <data name="&gt;&gt;changeLocationButton.Name" xml:space="preserve">
+    <value>changeLocationButton</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonBanInfo.Name" xml:space="preserve">
+    <value>buttonBanInfo</value>
+  </data>
+  <data name="piFactionGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="toolStripStatusLabel3.Text" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Name" xml:space="preserve">
+    <value>propertiesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;searchLoginIDToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LoaderPanel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="statisticsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Statistics</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 269</value>
+  </data>
+  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="buttonAddCompleteMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 400</value>
+  </data>
+  <data name="changeBanButton.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="trackBar1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;removeEquipmentButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameLoginID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="saveEquipmentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCompleteMap.Name" xml:space="preserve">
+    <value>buttonAddCompleteMap</value>
+  </data>
+  <data name="piLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 99</value>
+  </data>
+  <data name="piPath.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameIP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="itemAllowedTypesDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>itemAllowedTypes</value>
+  </data>
+  <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;piAffiliation.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>356, 13</value>
+  </data>
+  <data name="&gt;&gt;piAffiliation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Factions</value>
+  </data>
+  <data name="&gt;&gt;changeLocationButton.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCompleteMap.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="piEquipmentGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 416</value>
+  </data>
+  <data name="&gt;&gt;removeCargoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemHashDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>itemHash</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Kills</value>
+  </data>
+  <data name="&gt;&gt;openDirButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pIEquipmentTableBindingSource.Name" xml:space="preserve">
+    <value>pIEquipmentTableBindingSource</value>
+  </data>
+  <data name="saveFileManualButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;piMoney.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;deletePlayerButton.Name" xml:space="preserve">
+    <value>deletePlayerButton</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piCargoGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piIPAddresses.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterSameIP.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About...</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="label17.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="tabPage5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="charNameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>CharName</value>
+  </data>
+  <data name="&gt;&gt;moneyDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piAccountID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 15</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="changeBanButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="itemDescriptionDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="&gt;&gt;piCargoGrid.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="piReputationEdit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
+  <data name="&gt;&gt;piFactionGrid.Name" xml:space="preserve">
+    <value>piFactionGrid</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="removeEquipmentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 428</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="&gt;&gt;buttonChangeCargo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripDBPending.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemCountDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;changeNameButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;piKills.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="buttonResetLastOnline.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="piEquipmentGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;discardFactionButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="addCargoButton.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonAddCompleteMap.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;piEquipmentGrid.Name" xml:space="preserve">
+    <value>piEquipmentGrid</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 22</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 13</value>
+  </data>
+  <data name="&gt;&gt;isDeletedDataGridViewCheckBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="richTextBoxLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>455, 449</value>
+  </data>
+  <data name="&gt;&gt;rankDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LastOnLines.UserAddedColumn" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="onLineSecsDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>OnLineSecs</value>
+  </data>
+  <data name="OnLineSecs.Width" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="charListDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 34</value>
+  </data>
+  <data name="changeShipButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 218</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="lastOnLineDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>LastOnLine</value>
+  </data>
+  <data name="deletePlayerButton.Text" xml:space="preserve">
+    <value>Delete Player</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;pIFactionTableBindingSource.Name" xml:space="preserve">
+    <value>pIFactionTableBindingSource</value>
+  </data>
+  <data name="&gt;&gt;isDeletedDataGridViewCheckBoxColumn.Name" xml:space="preserve">
+    <value>isDeletedDataGridViewCheckBoxColumn</value>
+  </data>
+  <data name="changeBanButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="&gt;&gt;itemGameDataTypeDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemGameDataTypeDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;piKills.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;piFileView.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;toolStripHookState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterDeleted.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="buttonAddCompleteMap.Text" xml:space="preserve">
+    <value>Add Complete Map</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="toolStripStatusLabel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;accDirDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>accDirDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="piOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="deletePlayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="textBoxFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 407</value>
+  </data>
+  <data name="piMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="toolStripStatusLabel3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 6pt</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piKills.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;pICargoListBindingSource.Name" xml:space="preserve">
+    <value>pICargoListBindingSource</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="discardCargoButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="buttonBanInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="&gt;&gt;buttonAddEquipment.Name" xml:space="preserve">
+    <value>buttonAddEquipment</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 10</value>
+  </data>
+  <data name="piRank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 272</value>
+  </data>
+  <data name="&gt;&gt;viewToolStripMenuItem.Name" xml:space="preserve">
+    <value>viewToolStripMenuItem</value>
+  </data>
+  <data name="piTimePlayed.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="saveFactionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 23</value>
+  </data>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="openDirButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 41</value>
+  </data>
+  <data name="richTextBoxPlayerInfoPlayerText.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="deletePlayerButton.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="itemNicknameDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>NickName</value>
+  </data>
+  <data name="tabPage4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="&gt;&gt;label17.Name" xml:space="preserve">
+    <value>label17</value>
+  </data>
+  <data name="&gt;&gt;changeNameButton.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="&gt;&gt;changeEquipmentButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piIPAddresses.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;itemDescriptionDataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>itemDescriptionDataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;toolStripHookState.Name" xml:space="preserve">
+    <value>toolStripHookState</value>
+  </data>
+  <data name="&gt;&gt;checkBoxShowOriginalFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="piPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 40</value>
+  </data>
+  <data name="&gt;&gt;timerShutdown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="reloadGameDataToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckFile.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="reloadGameDataToolStripMenuItem.Text" xml:space="preserve">
+    <value>Reload Game Data</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;timerPeriodicTasks.Name" xml:space="preserve">
+    <value>timerPeriodicTasks</value>
+  </data>
+  <data name="trackBar1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;itemHardpointDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;changeShipButton.Name" xml:space="preserve">
+    <value>changeShipButton</value>
+  </data>
+  <data name="saveFileManualButton.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="charListDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="piOnline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 299</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;rescanAccountFilesToolStripMenuItem.Name" xml:space="preserve">
+    <value>rescanAccountFilesToolStripMenuItem</value>
+  </data>
+  <data name="label16.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="saveFactionButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>258, 428</value>
+  </data>
+  <data name="&gt;&gt;buttonPlayerInfoSaveAdminText.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="saveFileManualButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;buttonBanInfo.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="toolStripDBPending.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="piCreated.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameIP.Name" xml:space="preserve">
+    <value>checkBoxFilterSameIP</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="tabPage4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="saveCargoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 428</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Reputation</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;buttonAddEquipment.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="&gt;&gt;changeBanButton.Name" xml:space="preserve">
+    <value>changeBanButton</value>
+  </data>
+  <data name="piIPAddresses.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 325</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 302</value>
+  </data>
+  <data name="&gt;&gt;piReputationEdit.Name" xml:space="preserve">
+    <value>piReputationEdit</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="locationDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="changeNameButton.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="propertiesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 223</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLastOnline.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;label19.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="textBoxFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piShip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="&gt;&gt;reloadFileButton.Name" xml:space="preserve">
+    <value>reloadFileButton</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="changeLocationButton.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;discardFactionButton.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;propertiesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPlayerInfoSaveAdminText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piShip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 220</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 145</value>
+  </data>
+  <data name="piShip.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="label19.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="piCargoGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 416</value>
+  </data>
+  <data name="&gt;&gt;itemListToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OnLineSecs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="removeCargoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>130, 428</value>
+  </data>
+  <data name="changeLocationButton.Text" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="&gt;&gt;saveCargoButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;fLFileEditorToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonAddEquipment.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;piReputationEdit.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="buttonChangeCargo.Text" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="reloadFileButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 41</value>
+  </data>
+  <data name="piMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 168</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="removeCargoButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;changeShipButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;accIDDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>accIDDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;kickPlayerButton.Name" xml:space="preserve">
+    <value>kickPlayerButton</value>
+  </data>
+  <data name="piIPAddresses.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="&gt;&gt;buttonResetLastOnline.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="checkBoxFilterDeleted.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="reloadFileButton.Text" xml:space="preserve">
+    <value>Reload File</value>
+  </data>
+  <data name="buttonCheckFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 67</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabPage7.Name" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="buttonAddEquipment.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;piLocation.Name" xml:space="preserve">
+    <value>piLocation</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="checkBoxShowOriginalFile.Text" xml:space="preserve">
+    <value>Show original file</value>
+  </data>
+  <data name="&gt;&gt;updatedDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>updatedDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoPlayerText.Parent" xml:space="preserve">
+    <value>tabPage7</value>
+  </data>
+  <data name="&gt;&gt;saveCargoButton.Parent" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;charNameDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchIPtoolStripMenuItem.Text" xml:space="preserve">
+    <value>Search IP</value>
+  </data>
+  <data name="addCargoButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 17</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxLog.Parent" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="buttonAddEquipment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="addCargoButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 428</value>
+  </data>
+  <data name="changeNameButton.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="LoaderPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="&gt;&gt;pICargoListBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="kickPlayerButton.Text" xml:space="preserve">
+    <value>Kick</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterDeleted.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 410</value>
+  </data>
+  <data name="&gt;&gt;discardCargoButton.Name" xml:space="preserve">
+    <value>discardCargoButton</value>
+  </data>
+  <data name="piLastOnline.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 247</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;openDirButton.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="piOnline.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Account ID</value>
+  </data>
+  <data name="discardCargoButton.Text" xml:space="preserve">
+    <value>Discard Changes</value>
+  </data>
+  <data name="&gt;&gt;addCargoButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;changeEquipmentButton.Name" xml:space="preserve">
+    <value>changeEquipmentButton</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="kickPlayerButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;piAccountID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel4.Name" xml:space="preserve">
+    <value>toolStripStatusLabel4</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckFile.Name" xml:space="preserve">
+    <value>buttonCheckFile</value>
+  </data>
+  <data name="&gt;&gt;discardEquipmentButton.Parent" xml:space="preserve">
+    <value>tabPage4</value>
+  </data>
+  <data name="toolStripHookState.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="piPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 96</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="toolStripStatusLabelStatus.Text" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;piIPAddresses.Name" xml:space="preserve">
+    <value>piIPAddresses</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;saveFactionButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;itemRepDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piCargoGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="&gt;&gt;itemHashDataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;discardEquipmentButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="saveFileManualButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;kickPlayerButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 461</value>
+  </data>
+  <data name="buttonCheckFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 275</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;piRank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openDirButton.Name" xml:space="preserve">
+    <value>openDirButton</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="textBoxFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;reloadFileButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;accDirDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="buttonChangeCargo.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;itemListToolStripMenuItem.Name" xml:space="preserve">
+    <value>itemListToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;piRank.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lastOnLineDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>lastOnLineDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piAccountID.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="discardEquipmentButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterDeleted.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="&gt;&gt;piLocation.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="checkBoxFilterDeleted.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;changeMoneyButton.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;piIPAddresses.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="richTextBoxLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="&gt;&gt;statisticsToolStripMenuItem.Name" xml:space="preserve">
+    <value>statisticsToolStripMenuItem</value>
+  </data>
+  <data name="tabPage7.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="toolStripStatusLabel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 17</value>
+  </data>
+  <data name="&gt;&gt;saveFileManualButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;itemRepDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>itemRepDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;reloadGameDataToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="tabPage4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;addCargoButton.Name" xml:space="preserve">
+    <value>addCargoButton</value>
+  </data>
+  <data name="&gt;&gt;piName.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;piIPAddresses.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;itemAllowedTypesDataGridViewTextBoxColumn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="removeEquipmentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="itemHashDataGridViewTextBoxColumn1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="changeNameButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>385, 140</value>
+  </data>
+  <data name="tabPage7.Text" xml:space="preserve">
+    <value>Player Info</value>
+  </data>
+  <data name="&gt;&gt;changeEquipmentButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;richTextBoxPlayerInfoAdminText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonResetLastOnline.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="discardEquipmentButton.Text" xml:space="preserve">
+    <value>Discard Changes</value>
+  </data>
+  <data name="buttonCheckFile.Text" xml:space="preserve">
+    <value>Check File</value>
+  </data>
+  <data name="&gt;&gt;toolStripDBPending.Name" xml:space="preserve">
+    <value>toolStripDBPending</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameLoginID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="itemListToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="label15.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 0</value>
+  </data>
+  <data name="changeBanButton.Text" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="discardFactionButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 23</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 197</value>
+  </data>
+  <data name="changeEquipmentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 428</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="piFileView.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="statisticsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 22</value>
+  </data>
+  <data name="buttonBanInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 41</value>
+  </data>
+  <data name="LoaderPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="piKills.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="tabPage3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;saveFileManualButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="removeCargoButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 23</value>
+  </data>
+  <data name="saveCargoButton.Text" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="&gt;&gt;piFileView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LoaderPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="&gt;&gt;piAccountID.Name" xml:space="preserve">
+    <value>piAccountID</value>
+  </data>
+  <data name="saveFileManualButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 432</value>
+  </data>
+  <data name="&gt;&gt;buttonCheckFile.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxFilter.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxFilterSameAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="checkBoxFilterSameAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 17</value>
+  </data>
+  <data name="&gt;&gt;locationDataGridViewTextBoxColumn.Name" xml:space="preserve">
+    <value>locationDataGridViewTextBoxColumn</value>
+  </data>
+  <data name="piFileView.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="itemHashDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="buttonPlayerInfoSaveAdminText.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="fLFileEditorToolStripMenuItem.Text" xml:space="preserve">
+    <value>FL File Editor</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="checkBoxFilterSameLoginID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 502</value>
+  </data>
+  <data name="piLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;changeBanButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="piName.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;changeLocationButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="addCargoButton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="trackBar1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 27</value>
+  </data>
+  <data name="changeMoneyButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="changeEquipmentButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="rankDataGridViewTextBoxColumn.HeaderText" xml:space="preserve">
+    <value>Rank</value>
+  </data>
+  <data name="&gt;&gt;piMoney.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="toolStripStatusLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="itemAllowedTypesDataGridViewTextBoxColumn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LastOnLine.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="changeShipButton.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;rescanAccountFilesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="discardEquipmentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 428</value>
+  </data>
+  <data name="removeEquipmentButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <metadata name="pIEquipmentTableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>336, 54</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru</value>
+  </metadata>
+  <metadata name="pIFactionTableBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>549, 54</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>81</value>
+  </metadata>
+  <metadata name="OnLineSecs.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="LastOnLine.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timerFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>162, 91</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>393, 17</value>
+  </metadata>
+  <metadata name="timerShutdown.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>745, 54</value>
+  </metadata>
+  <metadata name="characterListBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>502, 17</value>
+  </metadata>
+  <metadata name="pICargoListBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 54</value>
+  </metadata>
+  <metadata name="timerDBSave.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>688, 17</value>
+  </metadata>
+  <metadata name="timerPeriodicTasks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 91</value>
+  </metadata>
+  <metadata name="updatePlayerInfoTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>118, 17</value>
+  </metadata>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>283, 17</value>
+  </metadata>
+</root>

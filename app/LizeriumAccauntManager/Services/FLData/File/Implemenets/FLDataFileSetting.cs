@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Author: Nikolay Dvurechensky
+ * Site: https://dvurechensky.pro/
+ * Gmail: dvurechenskysoft@gmail.com
+ * Last Updated: 07 апреля 2026 10:56:41
+ * Version: 1.0.1
+ */
+
+using System;
 
 /*  The following notes on bin file encoding were written by Christopher Wellons <ccw129@psu.edu>
     and were taken from http://www.nullprogram.com/projects/bini/

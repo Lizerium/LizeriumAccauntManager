@@ -1,7 +1,7 @@
-﻿<h1 align="center">🐇 Менеджер аккаунтов игроков (DCAM)</h1>
+﻿<h1 align="center">🐇 Player Account Manager (DCAM)</h1>
 
 <p align="center">
-  <b>Современный переосмысленный менеджер аккаунтов игроков для Freelancer Server, переработанный под большие игровые сборки, кириллицу, асинхронную обработку и расширяемую архитектуру.</b>
+  <b>A modern reimagined player account manager for Freelancer Server, redesigned for large-scale game builds, Unicode support, asynchronous processing, and extensible architecture.</b>
 </p>
 
 <p align="center">
@@ -13,405 +13,375 @@
   <img src="https://shields.dvurechensky.pro/badge/Status-Active%20Development-FF6D00?style=for-the-badge" />
 </p>
 
+<div align="center" style="margin: 20px 0; padding: 10px; background: #1c1917; border-radius: 10px;">
+  <strong>🌐 Language: </strong>
+  
+  <a href="./README.ru.md" style="color: #F5F752; margin: 0 10px;">
+    🇷🇺 Russian
+  </a>
+  | 
+  <span style="color: #0891b2; margin: 0 10px;">
+    ✅ 🇺🇸 English (current)
+  </span>
+</div>
+
 ---
 
 > [!NOTE]
-> Этот проект является частью экосистемы **Lizerium** и относится к направлению:
+> This project is part of the **Lizerium** ecosystem and belongs to the following direction:
 >
 > - [`Lizerium.Software.Structs`](https://github.com/Lizerium/Lizerium.Software.Structs)
 >
-> Если вы ищете связанные инженерные и вспомогательные инструменты, начните оттуда.
+> If you are looking for related engineering and supporting tools, start there.
 
 > [!NOTE]
-> Этот проект является **переосмыслением и модернизацией** старого инструмента управления аккаунтами игроков для серверов **Freelancer (2003)**.
+> This project is a **reimagining and modernization** of an older player account management tool for **Freelancer (2003)** servers.
 >
-> Он создаётся как более **современная, масштабируемая и расширяемая версия** классического **DS Account Manager / DCAM**.
-
-# 📖 О проекте
-
-**DCAM (Dvurechensky Account Manager / DS Account Manager Rework)** — это переработанный инструмент для анализа, отображения и управления данными аккаунтов игроков на сервере **Freelancer**.
-
-Изначально старые менеджеры аккаунтов создавались в эпоху, когда размеры игровых сборок, структура данных, кодировки и требования к архитектуре были совершенно другими.
-
-Со временем стало очевидно, что старый подход:
-
-- **плохо масштабируется**,
-- **плохо переносит большие модификации**,
-- **ломается на кириллице**,
-- **сложно расширяется**,
-- и **плохо подходит для современной инфраструктуры**.
-
-Поэтому проект был **пересобран заново** с упором на:
-
-- читаемую архитектуру,
-- поддержку больших игровых данных,
-- современный .NET-подход,
-- нормальную работу с кириллицей,
-- асинхронную обработку,
-- расширяемость под будущие сервисы.
+> It is being developed as a more **modern, scalable, and extensible version** of the classic **DS Account Manager / DCAM**.
 
 ---
 
-- [📖 О проекте](#-о-проекте)
-- [🌖 Предыстория](#-предыстория)
-- [❗ Почему проект пришлось пересоздать](#-почему-проект-пришлось-пересоздать)
-  - [🌀 1. Слишком долгая обработка крупных игровых сборок](#-1-слишком-долгая-обработка-крупных-игровых-сборок)
-  - [🌀 2. Базовая версия инструмента была англоязычной](#-2-базовая-версия-инструмента-была-англоязычной)
-  - [🌀 3. Проблемы с кириллицей и кодировками](#-3-проблемы-с-кириллицей-и-кодировками)
-  - [🌀 4. Устаревший подход на XSD-структурах](#-4-устаревший-подход-на-xsd-структурах)
-  - [🌀 5. Смешанная логика без нормального разделения ответственности](#-5-смешанная-логика-без-нормального-разделения-ответственности)
-  - [🌀 6. Последовательные алгоритмы тормозили всё приложение](#-6-последовательные-алгоритмы-тормозили-всё-приложение)
-  - [🌀 7. Не хватало интеграции с современной экосистемой](#-7-не-хватало-интеграции-с-современной-экосистемой)
-- [🚀 Что было изменено](#-что-было-изменено)
-  - [🐳 1. Уход от синхронного и последовательного выполнения](#-1-уход-от-синхронного-и-последовательного-выполнения)
-  - [🐳 2. Полный отказ от `System.Data.DataSet`](#-2-полный-отказ-от-systemdatadataset)
-  - [🐳 3. Переход на `List<T>` и POCO-модели](#-3-переход-на-listt-и-poco-модели)
-  - [🐳 4. Архитектура была перестроена на `MVP + Services`](#-4-архитектура-была-перестроена-на-mvp--services)
-- [🧠 Архитектурная идея](#-архитектурная-идея)
-  - [`Presenter` управляет логикой](#presenter-управляет-логикой)
-  - [`View` отвечает только за UI](#view-отвечает-только-за-ui)
-  - [`IMainView` нужен для отвязки Presenter от конкретной формы](#imainview-нужен-для-отвязки-presenter-от-конкретной-формы)
-- [🧱 Технические улучшения](#-технические-улучшения)
-  - [Уже заложены направления под:](#уже-заложены-направления-под)
-- [📜 История и происхождение](#-история-и-происхождение)
-  - [`DS Account Manager` — v1.3](#ds-account-manager--v13)
-    - [Ранее выпускался / поддерживался:](#ранее-выпускался--поддерживался)
-- [⚠️ Текущее состояние](#️-текущее-состояние)
-  - [🐌 P.S.](#-ps)
-- [🔗 Наследие и алгоритмы](#-наследие-и-алгоритмы)
-  - [🌲 Алгоритмы хэширования предметов](#-алгоритмы-хэширования-предметов)
-  - [🌲 Алгоритмы хэширования фракций](#-алгоритмы-хэширования-фракций)
-- [📜 История изменений](#-история-изменений)
-- [⚖️ Лицензия](#️-лицензия)
-- [💬 Примечание](#-примечание)
+# 📖 About the Project
+
+**DCAM (Dvurechensky Account Manager / DS Account Manager Rework)** is a redesigned tool for analyzing, visualizing, and managing player account data on a **Freelancer** server.
+
+Legacy account managers were originally created in an era with very different constraints:
+
+- smaller game builds
+- simpler data structures
+- limited encoding requirements
+- minimal architectural expectations
+
+Over time, it became clear that the old approach:
+
+- **does not scale well**
+- **breaks on large modifications**
+- **fails with non-Latin encodings (e.g., Cyrillic)**
+- **is difficult to extend**
+- and **does not fit modern infrastructure needs**
+
+As a result, the project was **rebuilt from scratch** with a focus on:
+
+- clean and maintainable architecture
+- support for large-scale game data
+- modern .NET practices
+- proper Unicode handling
+- asynchronous processing
+- extensibility for future services
 
 ---
 
-# 🌖 Предыстория
+# 🌖 Background
 
-Я, **[Dvurechensky](https://dvurechensky.pro)**, решил **пересоздать эту программу практически с нуля**, потому что старый подход перестал соответствовать реальным условиям работы с моим проектом.
+I, **[Dvurechensky](https://dvurechensky.pro)**, decided to **rebuild this tool almost from scratch**, because the original approach no longer matched the real-world requirements of my project.
 
-Изначально инструмент был известен как:
+Historically, the tool was known as:
 
 - **DCAM**
 - **DC Account Manager**
 - **DS Account Manager**
 
-Однако он проектировался под совсем другие объёмы данных и под игровые сборки, которые были **существенно легче и проще**, чем те, с которыми мне приходится работать сейчас.
+However, it was designed for significantly smaller datasets and simpler game environments than those I work with today.
 
 ---
 
-# ❗ Почему проект пришлось пересоздать
+# ❗ Why the project had to be rebuilt
 
-## 🌀 1. Слишком долгая обработка крупных игровых сборок
+## 🌀 1. Extremely slow processing on large game builds
 
-Моя игра и даже сам классический проект **Freelancer** анализировались **по 10+ минут**.
+My game — and even the base **Freelancer** project — could take **10+ minutes** to process.
 
-Для современных задач это уже неприемлемо, особенно если инструмент должен использоваться регулярно и как часть более крупного рабочего пайплайна.
-
----
-
-## 🌀 2. Базовая версия инструмента была англоязычной
-
-Старый инструмент изначально был ориентирован на англоязычную среду и не был адаптирован под локализованные игровые проекты.
-
-Мне нужен был инструмент, который можно нормально использовать в русскоязычной рабочей среде без постоянных костылей.
+This is unacceptable for modern workflows, especially when the tool is used regularly as part of a larger pipeline.
 
 ---
 
-## 🌀 3. Проблемы с кириллицей и кодировками
+## 🌀 2. Original tool was English-only
 
-При открытии игровых данных, где информационные карты или другие текстовые данные содержали **кириллицу**, старый инструмент вместо текста показывал:
+The original tool was designed for an English-only environment and lacked proper localization support.
 
-- `????????????????`
-- мусорные символы
-- сломанную текстовую разметку
-
-Это делало часть данных либо плохо читаемой, либо вообще бесполезной для анализа.
+I needed a tool that works naturally in a multilingual environment, including Russian.
 
 ---
 
-## 🌀 4. Устаревший подход на XSD-структурах
+## 🌀 3. Encoding and Cyrillic issues
 
-В старой версии инструмента для ориентира в алгоритмах и структурах активно использовались **XSD-описания ключевых классов**.
+When processing game data containing Cyrillic text, the old tool produced:
 
-Этот подход:
+- `????????????`
+- corrupted symbols
+- broken text formatting
 
-- морально устарел,
-- неудобен в сопровождении,
-- плохо масштабируется,
-- и уже **не соответствует нормальной современной разработке под .NET**.
-
----
-
-## 🌀 5. Смешанная логика без нормального разделения ответственности
-
-Старая структура проекта страдала от классической проблемы старых WinForms/WPF-инструментов:
-
-- логика обработки,
-- логика хранения,
-- логика отображения,
-- и события UI
-
-часто находились **в одном месте**.
-
-Например, в `MainWindow.cs` могло быть **2000+ строк**, где всё было перемешано между собой.
-
-Это сильно мешало:
-
-- сопровождению,
-- тестированию,
-- рефакторингу,
-- и добавлению новых функций.
+This made parts of the data unreadable or unusable.
 
 ---
 
-## 🌀 6. Последовательные алгоритмы тормозили всё приложение
+## 🌀 4. Outdated XSD-based approach
 
-Большая часть старой логики выполнялась **последовательно**, а не параллельно или асинхронно.
+The original tool relied heavily on **XSD-based structures**.
 
-Из-за этого:
+This approach:
 
-- долгие операции блокировали поток,
-- UI страдал,
-- масштабирование на больших игровых данных было плохим,
-- а дальнейшее развитие проекта становилось мучительным.
-
----
-
-## 🌀 7. Не хватало интеграции с современной экосистемой
-
-Старый инструмент был слишком изолированным и плохо подходил для встраивания в более крупную инфраструктуру.
-
-Мне не хватало возможности интегрировать его с:
-
-- собственными сервисами **античита**,
-- внутренними утилитами,
-- синхронизацией с **порталом Lizerium**,
-- и в целом с более современной инженерной экосистемой.
+- is outdated
+- difficult to maintain
+- does not scale well
+- and **does not align with modern .NET development practices**
 
 ---
 
-# 🚀 Что было изменено
+## 🌀 5. Mixed logic with no separation of concerns
 
-Проект был не просто слегка подчищен, а **фактически переосмыслен и собран заново**.
+The old project suffered from a classic issue:
 
-## 🐳 1. Уход от синхронного и последовательного выполнения
+- business logic
+- data handling
+- UI logic
+- event handling
 
-Проект был снят с **синхронных рельсов** и переведён в **асинхронный режим работы**.
+were often all placed in a single file.
 
-Это дало возможность:
+For example, `MainWindow.cs` could easily exceed **2000+ lines** of mixed responsibilities.
 
-- не блокировать UI,
-- ускорить обработку,
-- лучше масштабироваться на больших данных,
-- подготовить проект к более тяжёлым сценариям анализа.
+This made:
+
+- maintenance
+- testing
+- refactoring
+- feature development
+
+significantly harder.
 
 ---
 
-## 🐳 2. Полный отказ от `System.Data.DataSet`
+## 🌀 6. Sequential algorithms slowed everything down
 
-Старый подход на базе:
+Most logic was executed **synchronously and sequentially**.
+
+This resulted in:
+
+- blocked UI
+- poor performance on large datasets
+- lack of scalability
+- painful future development
+
+---
+
+## 🌀 7. No integration with modern ecosystem
+
+The original tool was too isolated and difficult to integrate into a larger system.
+
+I needed integration with:
+
+- custom **anti-cheat services**
+- internal tools
+- synchronization with the **Lizerium portal**
+- and a broader engineering ecosystem
+
+---
+
+# 🚀 What was changed
+
+This is not a minor refactor — the project was **fundamentally redesigned**.
+
+## 🐳 1. Move to asynchronous processing
+
+The project was migrated from a **synchronous execution model** to an **asynchronous architecture**.
+
+This enables:
+
+- non-blocking UI
+- faster processing
+- better scalability
+- readiness for heavy workloads
+
+---
+
+## 🐳 2. Full removal of `System.Data.DataSet`
+
+The old stack:
 
 - `DataSet`
 - `DataTable`
-- XSD-дизайнеров
+- XSD designers
 
-был полностью удалён.
+was completely removed.
 
-Причина простая:  
-**XSD-дизайнеры официально не поддерживаются в .NET Core / .NET 5 / .NET 6 / .NET 7 / .NET 8**, а значит строить современный проект вокруг них — плохая идея.
+Reason:
+
+> XSD designers are not supported in modern .NET versions (.NET Core / 5 / 6 / 7 / 8)
 
 ---
 
-## 🐳 3. Переход на `List<T>` и POCO-модели
+## 🐳 3. Transition to `List<T>` and POCO models
 
-Вместо устаревшего DataSet-подхода проект был переведён на:
+The project now uses:
 
 - `List<T>`
-- **POCO-классы**
-- **DTO-модели**
+- **POCO classes**
+- **DTO models**
 
-Это дало:
+This provides:
 
-- более прозрачную структуру данных,
-- читаемую сериализацию/десериализацию,
-- лучшую тестируемость,
-- нормальную поддержку рефакторинга,
-- и более современный инженерный подход.
+- clearer data structures
+- better serialization/deserialization
+- improved testability
+- easier refactoring
+- modern engineering practices
 
 ---
 
-## 🐳 4. Архитектура была перестроена на `MVP + Services`
+## 🐳 4. Architecture redesigned to `MVP + Services`
 
-Проект был полностью переработан в сторону:
+The project now follows:
 
-- **MVP-паттерна**
-- сервисного слоя
-- разделения ответственности
-- более чистой и расширяемой структуры
+- **MVP pattern**
+- service layer separation
+- clear responsibility boundaries
+- extensible architecture
 
-При этом в проекте сознательно соблюдаются принципы:
+Principles applied:
 
 - **SOLID**
-- разделение UI и логики
-- тестируемость
-- переиспользуемость компонентов
+- UI / logic separation
+- testability
+- component reuse
 
 ---
 
-# 🧠 Архитектурная идея
+# 🧠 Architectural Concept
 
-Ключевая идея архитектуры здесь следующая:
+## `Presenter` controls the logic
 
-## `Presenter` управляет логикой
+Responsible for:
 
-Presenter отвечает за:
+- workflows
+- user actions
+- service coordination
+- data transformation
 
-- сценарии работы,
-- обработку действий пользователя,
-- координацию сервисов,
-- преобразование данных для отображения.
-
-Он **не должен зависеть от конкретной формы или конкретного окна**.
+It must remain independent from specific UI implementations.
 
 ---
 
-## `View` отвечает только за UI
+## `View` handles only UI
 
-`View` (например, `MainWindow`) должна отвечать только за:
+Responsible for:
 
-- отображение данных,
-- обработку событий интерфейса,
-- передачу действий пользователя в Presenter.
+- rendering
+- UI events
+- forwarding user actions
 
-Она не должна быть местом, где живёт вся бизнес-логика проекта.
-
----
-
-## `IMainView` нужен для отвязки Presenter от конкретной формы
-
-Чтобы Presenter был:
-
-- тестируемым,
-- переиспользуемым,
-- независимым от UI-фреймворка,
-
-создаётся интерфейс `IMainView`, который описывает только то, что Presenter может вызвать на форме.
-
-Это позволяет:
-
-- не закапывать логику в UI,
-- проще покрывать код тестами,
-- легче рефакторить проект в будущем.
+No business logic should live here.
 
 ---
 
-# 🧱 Технические улучшения
+## `IMainView` decouples Presenter from UI
 
-На текущем этапе проект уже ориентирован не просто на "старый редактор аккаунтов", а на более серьёзную инженерную основу.
+This allows:
 
-## Уже заложены направления под:
-
-- более быструю обработку игровых аккаунтов,
-- корректную работу с кириллицей и текстовыми данными,
-- расширение анализа игровых сущностей,
-- интеграцию с внутренними сервисами,
-- возможную связку с **античитом**,
-- синхронизацию с инфраструктурой **Lizerium**,
-- дальнейшую модульную переработку старых компонентов.
+- testability
+- reusability
+- UI framework independence
 
 ---
 
-# 📜 История и происхождение
+# 🧱 Technical Improvements
 
-Этот проект основан на историческом наследии старого инструмента:
+The project is evolving beyond a simple account manager into a solid engineering foundation.
+
+## Planned directions include:
+
+- faster account processing
+- full Unicode support
+- deeper game entity analysis
+- integration with internal services
+- anti-cheat integration
+- synchronization with **Lizerium infrastructure**
+- modular rework of legacy components
+
+---
+
+# 📜 History & Origin
+
+Based on the legacy tool:
 
 ## `DS Account Manager` — v1.3
 
-Менеджер аккаунтов игроков для **Freelancer Server**.
-
-### Ранее выпускался / поддерживался:
+Previously developed and maintained by:
 
 - `cannon`
 - `josh`
 - `ktstgt`
 
-Этот проект сыграл важную роль в своё время, и текущая переработка не пытается "стереть" это наследие, а наоборот — **сохранить его смысл, но перенести в более современную форму**.
+This project aims not to replace its legacy, but to **preserve its core ideas and evolve them into a modern system**.
 
 ---
 
-# ⚠️ Текущее состояние
+# ⚠️ Current State
 
 > [!WARNING]
-> Проект с большой долей вероятности находится в **активной разработке**.
+> The project is likely in **active development**.
 
-Это означает, что:
+This means:
 
-- часть функционала может быть временно не возвращена,
-- часть старых возможностей может быть ещё в процессе переноса,
-- некоторые внутренние компоненты могут находиться в стадии перепроектирования.
-
-Если вы наткнулись на проект на промежуточной стадии — это нормально.
+- some features may be missing
+- some functionality may still be in migration
+- internal components may be under redesign
 
 ---
 
 ## 🐌 P.S.
 
-Если вы хотите участвовать в развитии проекта — вы вправе:
+If you want to contribute, you are welcome to:
 
-- изучать структуру,
-- предлагать улучшения,
-- дорабатывать то, что я ещё не успел вернуть в рабочее состояние после обновления архитектуры.
+- explore the architecture
+- suggest improvements
+- help restore missing features
 
 ---
 
-# 🔗 Наследие и алгоритмы
+# 🔗 Legacy Algorithms
 
-В исторической основе проекта использовались алгоритмы, происхождение которых, вероятно, связано со следующими инструментами:
+## 🌲 Item hashing
 
-## 🌲 Алгоритмы хэширования предметов
-
-Вероятно использовались из:
+Likely based on:
 
 - `flhash.exe`
-- автор: `sherlog@t-online.de`
-- дата: `2003-06-11`
+- author: `sherlog@t-online.de`
+- date: `2003-06-11`
 
 ---
 
-## 🌲 Алгоритмы хэширования фракций
+## 🌲 Faction hashing
 
-Вероятно использовались из:
+Likely based on:
 
 - `flfachash.exe`
-- автор: `Haenlomal`
-- дата: `октябрь 2006`
+- author: `Haenlomal`
+- date: `October 2006`
 
 ---
 
-# 📜 История изменений
+# 📜 Changelog
 
-История обновлений проекта ведётся отдельно.
-
-📄 См.: [`CHANGELOG.md`](CHANGELOG.md)
-
-# ⚖️ Лицензия
-
-Проект распространяется в соответствии с лицензией, указанной в файле [`LICENSE`](LICENSE).
+See: [`CHANGELOG.md`](CHANGELOG.md)
 
 ---
 
-# 💬 Примечание
+# ⚖️ License
 
-Этот проект — не просто "старый менеджер аккаунтов, переписанный заново".
+See: [`LICENSE`](LICENSE)
 
-Это попытка:
+---
 
-- сохранить полезную инженерную основу старого инструмента,
-- убрать технический долг,
-- привести структуру к современному виду,
-- и подготовить его к реальному использованию в больших игровых экосистемах.
+# 💬 Note
 
-И если раньше это был просто локальный утилитарный инструмент,  
-то теперь он движется в сторону **полноценного, расширяемого и инженерно вменяемого приложения**.
+This is not just a rewritten legacy tool.
+
+It is an attempt to:
+
+- preserve valuable engineering ideas
+- eliminate technical debt
+- modernize architecture
+- and prepare the tool for real-world usage in large-scale game ecosystems
+
+What used to be a simple utility is now evolving into a **fully-fledged, extensible, and engineering-grade application**.

@@ -39,6 +39,14 @@
 >
 > It is being developed as a more **modern, scalable, and extensible version** of the classic **DS Account Manager / DCAM**.
 
+## Credits
+
+> [!NOTE]
+> This project is based on work from the Freelancer community.
+> Reworked and integrated into Lizerium ecosystem.
+>
+> Contributors: `Haenlomal`, `sherlog@t-online.de`
+
 ---
 
 # 📖 About the Project

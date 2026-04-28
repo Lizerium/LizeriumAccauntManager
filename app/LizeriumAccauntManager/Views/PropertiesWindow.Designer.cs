@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 27 апреля 2026 09:41:57
- * Version: 1.0.23
+ * Last Updated: 28 апреля 2026 14:26:16
+ * Version: 1.0.24
  */
 
 namespace Root

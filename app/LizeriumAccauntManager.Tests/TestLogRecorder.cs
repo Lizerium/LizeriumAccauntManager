@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 17 мая 2026 11:11:45
- * Version: 1.0.43
+ * Last Updated: 18 мая 2026 12:50:00
+ * Version: 1.0.44
  */
 
 using Root.Services;

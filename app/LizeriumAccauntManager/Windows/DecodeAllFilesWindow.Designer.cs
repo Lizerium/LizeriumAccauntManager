@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 23 мая 2026 11:14:15
- * Version: 1.0.49
+ * Last Updated: 24 мая 2026 06:53:02
+ * Version: 1.0.50
  */
 
 namespace Root.Tool_UI

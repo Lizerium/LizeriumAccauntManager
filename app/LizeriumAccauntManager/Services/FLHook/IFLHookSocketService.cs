@@ -2,8 +2,8 @@
  * Author: Nikolay Dvurechensky
  * Site: https://dvurechensky.pro/
  * Gmail: dvurechenskysoft@gmail.com
- * Last Updated: 12 августа 2026 06:53:07
- * Version: 1.0.130
+ * Last Updated: 13 августа 2026 06:52:58
+ * Version: 1.0.131
  */
 
 using static Root.Services.FLHookSocketService;
